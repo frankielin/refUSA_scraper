@@ -1,6 +1,6 @@
 # Reference USA Scraper
 
-A minimal Selenium scraper for paginated business-data tables on Reference USA (the business-records product formerly sold as ReferenceUSA, now part of Data Axle). Most universities license it through their library, behind a proxy and an SSO login — Shibboleth, CAS, Okta, Azure AD, whatever your campus uses.
+A minimal Selenium scraper for paginated business-data tables on ReferenceUSA (the business-records product formerly sold as ReferenceUSA, now part of Data Axle). Most universities license it through their library, behind a proxy and an SSO login.
 
 The script opens a Chrome window, you log in through your campus portal in that window, navigate to your results page, and hand control back to the terminal. The script then scrapes each page, clicks the "next" arrow, waits a configurable number of seconds, and writes a timestamped CSV.
 
