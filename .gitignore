@@ -1,0 +1,47 @@
+## Virtual Environment
+venv/
+env/
+ENV/
+.virtual_documents/
+
+## Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.py[cod]
+*$py.class
+
+## Data Files
+*.dta
+*.csv
+*.xlsx
+*.xls
+data/
+
+## Depreciated Code Files
+
+## Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+## IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+## R
+.Rhistory
+.RData
+.Rproj.user
+
+## Output Files
+plots/
+output/
+
+## Other Files
+CLAUDE.md
+.claude
+
